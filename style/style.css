@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+a {
+    background-color: red;
+    border-radius: 100px;
+    margin-left: -2px;
+    border: solid 25px red;
+    color: white;
+    padding: 0 10px 0 10px ;
+}
+
+body header {
+    background-image: url("../images/angel-jimenez.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+p {
+    margin: 0px 0px 50px 0;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 250px;
+}
+
+.flotante {
+    float: right;
+    margin: -90px 200px 50px 200px;
+    height:70vh;
+}
+
+.flotante1 {
+    float: left;
+    margin: -100px 200px 50px 300px;
+    height:70vh;
+}
+
+.pared {
+    clear: both;
+}
+
+img {
+    height:50vh ;
+}
+
+.margen {
+    margin: 230px 550px 200px 300px;
+}
+
+.margen1 {
+    margin: 0%;
+}
+
+.fondo {
+    background-image: url("../images/john-raptis.png");
+}
+
+.margen2 {
+    height: 85vh;
+    color: white;
+}
+
+.boton {
+    margin-left: 1000px;
+}
+
+div div h2 {
+    margin: 0 50px 10px 1000px;
+}
+
+div div p {
+    margin:  0 50px 40px 1000px;
+}
+
+.paredes {
+    clear: both;
+}
+
+.footer {
+    background-color: rgb(255, 16, 96);
+    height:40vh;
+}
+
+.Address {
+    color: white;
+    float: left;
+    padding: 30px 100px 0 340px;
+}
+
+.Product {
+    color: white;
+    float: left;
+    padding: 30px 100px 0 200px;
+}
+
+.Learn {
+    color: white;
+    float: left;
+    padding: 30px 100px 0 200px;
+}
+
+.Pricing {
+    color: white;
+    float: left;
+    padding: 30px 100px 0 150px;
+}
+
+.hola {
+    clear: both;
+}
+
+h5 {
+    color: white;
+    float: left;
+    margin: 0 560px 0 200px;
+}
+
+.linea {
+    text-align: center;
+    color: white;
+}
+
+@media (max-width:750px) {
+    body header {
+        width: 100%;
+    }
+    a {
+        padding: 0 -10px 0 -10px;
+    }
+    h1 {
+        font-size:100px ;
+        text-align: center;
+        padding: 5000px 0 0 0;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .margen {
+        margin: 40px 40px 0 50px;
+    }
+    .flotante {    
+        float: right;
+        margin: 0 50px 0 0 ;
+        height:70vh;
+    }
+    .flotante1 {
+        float: left;
+        margin: 20px 50px 0px 50px;
+        height:70vh;
+    }
+    .margen1 {
+        margin: 30px 0 0 0;
+    }
+    .fondo {
+        background-size: cover;
+    }
+    .margen2 {
+        margin: 40px 40px 0 340px;
+    }
+    div div h2 {
+        margin: 0;
+    }
+    div div p {
+        margin: 0%;
+    }
+    .boton {
+        margin-left: 0;
+    }
+    
+    .Address {
+        float: left;
+        padding: 30px 10px 0px 70px;
+    }
+
+    .Product {
+        float: left;
+        padding: 30px 10px 0 50px;
+    }
+
+    .Learn {
+        float: left;
+        padding: 30px 10px 0 50px;
+    }
+
+    .Pricing {
+        float: left;
+        padding: 30px 10px 0 50px;
+    }
+    h5 {
+        margin: 0 100px 0 100px;
+    }
+}
+
+@media (max-width:576px) {
+    body header {
+        width: 70%;
+        background-size: cover;
+    }
+    h1 {
+        font-size: 100px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .margen {
+        margin: 40px 20px 0 50px;
+    }
+    .flotante {
+        float: right;
+        margin: 0 10px 0 0;
+        height: 80vh;
+    }
+    .flotante1 {
+        float: left;
+        margin: 40px 30px 0 30px;
+        height: 80vh;
+    }
+    .margen1 {
+        margin: 50px 0 0 0;
+    }
+    .fondo {
+        background-size: cover;
+    }
+    .margen2 {
+        margin: 40px 40px 0 250px;
+    }
+    div div h2 {
+        margin: 0;
+    }
+    div div p {
+        margin: 0%;
+    }
+    .boton {
+        margin-left: 0;
+    }
+    .Address,
+    .Product,
+    .Learn,
+    .footeer {
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+
+    .Address {
+        padding: 30px 5px 0px 50px;
+    }
+
+    .Product {
+        padding: 30px 5px 0 30px;
+    }
+
+    .Learn,
+    .Product {
+        padding: 30px 5px 0 30px;
+    }
+
+    .Pricing {
+        padding: 30px 10px 0 0px;
+    }
+
+    h5 {
+        color: white;
+        margin: 0 50px 0 50px;
+    }
+}
+
+
